@@ -36,4 +36,5 @@ ble-uart 是基于nordic蓝牙芯片，keil开发环境的低功耗蓝牙串口�
 
 ## 3 AT指令
 
-* `AT+ADVEN`: 决定蓝牙是否进入`system off`,蓝牙进入`system off`步骤，`a 发送AT+ADVEN0` , `b WAKEUP_BLE_SWITCH 输入高电平` <br> `AT+ADVEN1`,关闭`system off`
+* `AT+ADVEN0`: 决定蓝牙是否进入`system off`,蓝牙进入`system off`步骤，`a 发送AT+ADVEN0` , `b WAKEUP_BLE_SWITCH 输入高电平`
+* `AT+ADVEN1`：关闭`system off`模式
