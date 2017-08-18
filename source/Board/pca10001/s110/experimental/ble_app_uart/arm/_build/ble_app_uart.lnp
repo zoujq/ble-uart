@@ -1,0 +1,20 @@
+--cpu Cortex-M0
+".\_build\arm_startup_nrf51.o"
+".\_build\system_nrf51.o"
+".\_build\main.o"
+".\_build\ble_srv_common.o"
+".\_build\ble_nus.o"
+".\_build\ble_advdata.o"
+".\_build\ble_conn_params.o"
+".\_build\softdevice_handler.o"
+".\_build\simple_uart.o"
+".\_build\app_timer.o"
+".\_build\app_gpiote.o"
+".\_build\app_scheduler.o"
+".\_build\at_cmd.o"
+".\_build\min_task_schedule.o"
+".\_build\user_ble_control.o"
+--strict --scatter ".\_build\ble_app_uart.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\_build\ble_app_uart.map" -o .\_build\ble_app_uart.axf
