@@ -26,7 +26,7 @@ ble-uart 是基于nordic蓝牙芯片，keil开发环境的低功耗蓝牙串口�
       #define BLE_STATUS            29
 ```
 
->>DISCONNECT_BLE_SWITCH
->>>下降沿有效，断开当前已建立的蓝牙连接，广播并重新等待被连接
->>WAKEUP_BLE_SWITCH
->>>下降沿唤醒system off 中的蓝牙芯片
+      * DISCONNECT_BLE_SWITCH
+      * 下降沿有效，断开当前已建立的蓝牙连接，广播并重新等待被连接
+*WAKEUP_BLE_SWITCH
+*降沿唤醒system off 中的蓝牙芯片
